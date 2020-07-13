@@ -16,7 +16,7 @@ const HeaderContainer = styled.div`
     margin: auto 0;
   }
   li {
-    margin-left: 3rem;
+    margin-left: 4rem;
     margin-top: 0.3rem;
     font-weight: lighter;
   }
