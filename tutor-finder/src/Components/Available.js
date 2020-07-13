@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import apple from "../Images/apple.png";
 import google from "../Images/google.png";
-// import chat from "../Images/gurulez.png";
 // css
 const AvailableContainer = styled.div`
   display: flex;
