@@ -8,9 +8,9 @@ import time from "../Images/time2.png";
 // css
 const AvailableContainer = styled.div`
   display: flex;
-  height: 100vh;
+  height: 90vh;
   padding: 2rem 10rem;
-
+  padding-top: 2.4rem;
   .availableContents {
     width: 45%;
     h3 {

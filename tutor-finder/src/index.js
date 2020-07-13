@@ -7,6 +7,7 @@ import About from "./Components/About";
 import Category from "./Components/Category";
 import Tutors from "./Components/Tutors";
 import Availabe from "./Components/Available";
+import Footer from "./Components/Footer";
 
 import * as serviceWorker from "./serviceWorker";
 
@@ -18,6 +19,7 @@ ReactDOM.render(
     <Category />
     <Tutors />
     <Availabe />
+    <Footer />
   </React.StrictMode>,
   document.getElementById("root")
 );
