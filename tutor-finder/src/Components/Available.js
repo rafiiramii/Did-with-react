@@ -81,7 +81,7 @@ const AvailableContainer = styled.div`
     .avalaibleScreen {
       z-index: 800;
 
-      border: 13px solid black;
+      border: 20px solid black;
       border-radius: 30px;
       height: 560px;
       margin-top: 3rem;
@@ -157,6 +157,27 @@ const AvailableContainer = styled.div`
         margin-top: -0.7rem;
       }
     }
+    .camera {
+      position: absolute;
+      background-color: black;
+      width: 200px;
+      height: 40px;
+      margin-top: -34.5rem;
+      margin-left: 21rem;
+      border-bottom-left-radius: 18px;
+      border-bottom-right-radius: 18px;
+
+      input {
+        margin-left: 2.5rem;
+        margin-top: 0.7rem;
+      }
+      input:nth-child(2) {
+        width: 8px;
+      }
+      input:nth-child(3) {
+        width: 4px;
+      }
+    }
   }
 `;
 
@@ -216,6 +237,11 @@ function Available() {
             <p>Meeting time</p>
             <h6>this suppose to be the time you choose</h6>
           </div>
+        </div>
+        <div className="camera">
+          <input type="radio" />
+          <input type="radio" />
+          <input type="radio" />
         </div>
       </div>
     </AvailableContainer>
